@@ -1,0 +1,39 @@
+<html>
+    <link>
+        <title>grid</title>
+        <link rel="stylesheet" href="grid.css">
+    </head>
+    <body>
+        <div class="parent">
+            <div class="child1">
+                <h1>Header</h1>
+                <input type="text" />
+                <button>Search</button>
+                <h2>Login</h2>
+            </div>
+            <div class="child2">
+                <h3>Java</h3>
+                <h3>python</h3>
+                <h3>React</h3>
+                <h3>Angular</h3>
+            </div>
+            <div class="child3">
+                <div class="card">
+                    <h2>Registration</h2>
+                    <label for="user" >username :</label>
+                    <input type="text" id="user" /> 
+                    <label for="password" >password :</label>
+                    <input type="password" id="password" />
+                    <button onclick={get()}>Register</button>
+                </div>
+            </div>
+            <div class="child4">right</div>
+            <div class="child5">footer</div>
+        </div>
+        <script>
+            function get(){
+                alert("hello")
+            };
+        </script>
+    </body>
+</html>
